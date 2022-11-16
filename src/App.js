@@ -12,6 +12,7 @@ import ChildtoParent from "./ChildtoParent";
 import UseContext from "./Hooks/UseContext";
 import API_calling from "./Learning/API_calling";
 import Props from "./Props and states/Props";
+import Carousel from "./Carousel/Carousel";
 import UseState from "./Hooks/UseState";
 import UseEffect from "./Hooks/UseEffect";
 import { UseReducer } from "./Hooks/UseReducer";
@@ -301,7 +302,10 @@ export default function App() {
 
       {/* <UseContext /> */}
       {/* <UseReducer /> */}
-      <UseRef />
+      {/* <UseRef /> */}
+
+      {/* //  Carousel */}
+      <Carousel />
     </div>
   );
 }
